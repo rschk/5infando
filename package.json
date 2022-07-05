@@ -1,0 +1,25 @@
+{
+  "name": "5infando",
+  "version": "1.0.0",
+  "description": "projeto porcellis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "projeto",
+    "porcellis",
+    "informatica",
+    "5",
+    "info",
+    "marica"
+  ],
+  "author": "mari reischak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "multer": "^1.4.4-lts.1"
+  }
+}

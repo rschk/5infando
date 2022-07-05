@@ -1,0 +1,20 @@
+<%-include('../cabecalho.ejs')%>
+    <form method="post" enctype="multipart/form-data">
+        Id: <input type="text" name="id" 
+            required value="<%=Usuario._id%>" readonly ><br>
+        Artista: <input type="text" name="artista" 
+            placeholder="Digite o nome do artista: " required 
+            value="<%=Usuario.artista%>" ><br>
+        Album: <input type="text" name="album" 
+            placeholder="Digite o nome do álbum: "
+            value="<%=Usuario.album%>" required><br>
+        DataLanc: <input type="date" name="dataLanc" 
+            placeholder="Digite a data de lançamento: "
+            value="<%=Usuario.dataLanc%>" required><br>
+        NumFaixas: <input type="number" name="numFaixas" 
+            required value="<%=Usuario.numFaixas%>" ><br>
+        Foto: <input type="file" name="foto" 
+            accept="image/*"><br>
+        <input type="submit" value="Salvar">
+    </form>
+<%-include('../rodape.ejs')%>
