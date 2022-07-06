@@ -10,7 +10,7 @@ function add(req, res) {
   usuario.dataLanc = new Date (req.body.dataLanc);
   usuario.numFaixas = new Number (req.body.numFaixas);
   usuario.foto = req.file.filename;
-  usuario.save(function (err, result) {
+  usuario.save(function (err, res) {
     if (err) {
       res.send("Aconteceu o seguinte erro: " + err);
     } else {
@@ -40,7 +40,7 @@ function edt(req, res) {
     {
       artista: req.body.artista,
       album: req.body.album,
-      dataLanc: req.body.senha,
+      dataLanc: req.body.dataLanc,
       numFaixas: req.body.numFaixas,
       foto: req.file.filename,
 
