@@ -1,0 +1,30 @@
+#tudo{
+    width:1024px;
+    margin:0 auto;
+    
+}
+table{
+    border-collapse: separete;
+    min-width: 100%;
+}
+table, tr, td, th{
+    border: solid 2px rgb(184, 27, 27);
+}
+td,th{
+    padding: 10px;
+}
+input{
+    margin: 5px 0px;
+    padding: 10px;
+    min-width: 100%;
+}
+input[type="submit"]{
+    min-width:250px
+}
+.pesquisa{
+    min-width: 77%;
+}
+.img-responsive{
+    max-width: 60px;
+    margin-left: 60px;
+}
